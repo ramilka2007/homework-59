@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../container/FavoriteFilm/FavoriteFilm.css';
 
 interface FilmProps {
   title: string;
@@ -8,6 +9,7 @@ interface FilmProps {
 
 const FilmCard: React.FC<FilmProps> = React.memo(
   ({ title, deleteFilm, changeTitle }) => {
+    console.log(title);
     return (
       <div className="card">
         <input

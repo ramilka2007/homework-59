@@ -1,5 +1,6 @@
 import React from 'react';
 import { Film, newFilm } from '../../../types';
+import '../../container/FavoriteFilm/FavoriteFilm.css';
 
 interface FilmFormProps {
   onSubmit: (film: Film) => void;
