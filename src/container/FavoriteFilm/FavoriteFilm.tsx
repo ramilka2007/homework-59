@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Film } from '../../../types';
 import FilmForm from '../../components/FilmForm/FilmForm';
 import FilmCard from '../../components/FilmCard/FilmCard';
-import './FavoriteFilm.css'
+import './FavoriteFilm.css';
 
 const FavoriteFilm = () => {
   const [films, setFilms] = useState<Film[]>([
