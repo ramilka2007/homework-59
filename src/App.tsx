@@ -7,9 +7,9 @@ const App = () => {
     <>
       <h1>Level 1</h1>
       <FavoriteFilm />
-      <hr/>
+      <hr />
       <h1>Level 2</h1>
-      <Jokes/>
+      <Jokes />
     </>
   );
 };

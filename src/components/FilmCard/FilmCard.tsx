@@ -7,8 +7,7 @@ interface FilmProps {
 }
 
 const FilmCard: React.FC<FilmProps> = React.memo(
-  ({ title, deleteFilm, changeTitle}) => {
-
+  ({ title, deleteFilm, changeTitle }) => {
     return (
       <div className="card">
         <input
